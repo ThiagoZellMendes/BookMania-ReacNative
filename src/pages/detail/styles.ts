@@ -42,6 +42,24 @@ export const Author = styled.Text`
   font-size: 14px;
   color: ${({theme}) => theme.colors.CTPolitica};
 `
+export const ContainerStar = styled.View`
+  flex-direction: row;
+  height: 15px;
+  width: 100px;
+  align-items: center;
+  margin-bottom: 22px;
+
+  `;
+export const Star = styled.Image`
+  height: 10px;
+  width: 10px;
+  `;
+
+export const Rating = styled.Text`
+  font-size: 12px;
+  margin-left: 8px;
+
+`;
 
 export const ContainerCategory = styled.View`
   border: 1px solid ${({theme}) => theme.colors.Border};

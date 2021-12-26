@@ -6,71 +6,9 @@ export const Container = styled.View`
   background-color: ${({theme}) => theme.colors.backgroundColor};
   `;
 
-export const HeaderHome = styled.View`
-  width: 100%;
-  height: 80px;
-  background: ${({theme}) => theme.colors.backgroundColor};
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: row;
+export const ContainerListBooks = styled.View`
   margin-top: 30px;
 `;
-
-export const ContainerTextHeader = styled.View`
-  height: 32px;
-  margin-top: 36px;
-  margin-left: 24px;
-  
-`;
-
-export const TextHeader = styled.Text`
-  color: ${({theme}) => theme.colors.primary};
-  font-weight: bold;
-  font-size: 24px;
-`;
-
-export const ContainerAvatarHeader =styled.View`
-  margin-right: 20px;
-`;
-
-export const Avatar =styled.Image`
-  width: 32px;
-  height: 32px;
-  border-radius: 50px;
-  margin-top: 36px;
-  margin-left: 24px;
-`;
-
-export const ViewInput = styled.View`
-margin-top: 16px
-flex-direction: row;
-border-width: 1px;
-border-radius: 4px;
-border-color: #9AA4AC;
-margin-left: 20px;
-margin-right: 20px;
-width:335px;
-height:48px;
-justify-content:space-between;
-align-items: center;
-`;
-
-export const ContainerTitleBooks = styled.View`
-  margin-top: 24px
-  margin-left: 20px;
-`;
-
-
-export const TitleBooks = styled.Text`
-  color: ${({theme}) => theme.colors.primary};
-  font-size: 18.75px;
-  font-weight: bold;
-`;
-
-export const ContainerListBooks = styled.View`
-  margin-top: 16px;
-`;
-
 
 
 

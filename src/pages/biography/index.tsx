@@ -1,18 +1,9 @@
 import React, { useState } from "react";
 import { ScrollView, StatusBar, TextInput, TouchableOpacity } from "react-native";
 import { ListBooks } from "../../components/ListBooks";
-import { Ionicons } from "@expo/vector-icons";
 import {
   Container,
-  HeaderHome,
-  ContainerTextHeader,
-  TextHeader,
-  ContainerAvatarHeader,
-  Avatar,
-  ViewInput,
   ContainerListBooks,
-  ContainerTitleBooks,
-  TitleBooks,
 } from "./styles";
 
 interface Props {
@@ -34,7 +25,10 @@ export function Biography(props: Props) {
       />
       <ScrollView showsVerticalScrollIndicator={false}>
         <ContainerListBooks>
-          <ListBooks horizontal={false} onClick={handleNavigationDetail} />
+          <ListBooks  onClick={handleNavigationDetail} />
+        </ContainerListBooks>
+        <ContainerListBooks>
+          <ListBooks  onClick={handleNavigationDetail} />
         </ContainerListBooks>
       </ScrollView>
     </Container>

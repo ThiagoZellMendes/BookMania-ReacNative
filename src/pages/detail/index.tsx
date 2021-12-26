@@ -16,6 +16,9 @@ import {
   TextAbout,
   ContainerDescription,
   TextDescription,
+  ContainerStar,
+  Star,
+  Rating,
 } from './styles';
 
 interface Props {
@@ -64,6 +67,14 @@ export function Detail(props: Props){
         <Title>{`Wonder Women:25 Mulheres Inovadoras,
 Inventoras e Pioneiras que Fizeram a Diferença`}</Title>
         <Author>Sam Maggs</Author>
+        <ContainerStar>
+        <Star source={require("../../assets/Star.png")}/>
+        <Star source={require("../../assets/Star.png")}/>
+        <Star source={require("../../assets/Star.png")}/>
+        <Star source={require("../../assets/Star.png")}/>
+        <Star source={require("../../assets/Star.png")}/>
+        <Rating>36 Avaliações</Rating>
+      </ContainerStar>
         <ContainerCategory>
           <TextCategory>Não Ficção</TextCategory>
         </ContainerCategory>
