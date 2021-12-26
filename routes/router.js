@@ -32,6 +32,7 @@ function TabRouters() {
           name='Home'
           component={Home}
           options={{
+            tabBarLabel:() => {return null},
             tabBarIcon: (({ color }) => 
               <Feather name='home' size={25} color={color} />
             )}}

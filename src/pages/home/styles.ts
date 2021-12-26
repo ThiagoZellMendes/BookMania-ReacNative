@@ -44,13 +44,13 @@ export const Avatar =styled.Image`
 export const ViewInput = styled.View`
 margin-top: 16px
 flex-direction: row;
-border-width: 1px;
+border-width: 2px;
 border-radius: 4px;
-border-color: #9AA4AC;
-margin-left: 20px;
-margin-right: 20px;
-width:335px;
-height:48px;
+border-color: #F2F2F2;
+margin-left: 16px;
+margin-right: 16px;
+width:360px;
+height:56px;
 justify-content:space-between;
 align-items: center;
 `;
@@ -65,6 +65,15 @@ export const TitleBooks = styled.Text`
   color: ${({theme}) => theme.colors.primary};
   font-size: 18.75px;
   font-weight: bold;
+`;
+
+export const ContainerViewCategorhys = styled.View`
+  height: 90px;
+  width: 74px;
+  margin-left:16px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  
 `;
 
 export const ContainerListBooks = styled.View`

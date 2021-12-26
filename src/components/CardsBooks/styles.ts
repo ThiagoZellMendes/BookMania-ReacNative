@@ -4,7 +4,7 @@ export const ContainerImgServices = styled.TouchableOpacity.attrs({
   activeOpacity: 0.6
 })`
   background-color: ${({theme})=> theme.colors.backgroundColor};
-  height: 250px;
+  height: 230px;
   width: 104px;
   align-items:center;
   margin-left: 12px;
