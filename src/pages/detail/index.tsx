@@ -38,6 +38,8 @@ interface PropsBooks {
 export function Detail( props : Props){
   let booksList = useBooks()
 
+  let books = booksList[1]
+
   const handleBack = () => {
     props.navigation.navigate('Home');
   };
@@ -74,11 +76,11 @@ export function Detail( props : Props){
       />
       <HeaderBook>
         <ContainerImagemBook>
-          <ImagemBook source={{uri:booksList[4].book_image}}/>
+          <ImagemBook source={{uri:books[1].book_image}}/>
         </ContainerImagemBook>
         <HeaderTitle>
-        <Title>{booksList[4].title}</Title>
-        <Author>{booksList[4].author}</Author>
+        <Title>{books[1].title}</Title>
+        <Author>{books[1].author}</Author>
         <ContainerStar>
         <Star source={require("../../assets/Star.png")}/>
         <Star source={require("../../assets/Star.png")}/>
@@ -102,7 +104,7 @@ export function Detail( props : Props){
 
       <ContainerDescription>
         <TextDescription>
-          {booksList[4].description}
+          {books[1].description}
         </TextDescription>
       </ContainerDescription>
       </View>

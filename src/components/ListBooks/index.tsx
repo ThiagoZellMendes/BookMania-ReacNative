@@ -7,26 +7,29 @@ import { ContainerSteamCleaning, SteanCleaningList  } from './styles';
 
 
 interface PropsTypeList extends TouchableOpacityProps{
+  dados: 'data1' | 'data2';
   onClick: () => void;
-  data: 'data1' | 'data2';
 }
 
 
-export function ListBooks({ data, onClick} : PropsTypeList) {
+
+export function ListBooks({ dados, onClick} : PropsTypeList) {
   const booksList = useBooks()
-  let dados;
-  if(data === 'data1'){
-    dados = booksList[1]
-  }else if(data === 'data2'){
-    dados = booksList[0]
+  let data
+  if(dados === 'data1'){
+    data = booksList[0]
+  }else if(dados === 'data2'){
+    data = booksList[1]
   }
   return (
     <ContainerSteamCleaning>
       <SteanCleaningList 
-        data={booksList}
+        data={data}
         keyExtractor={item => item.rank}
         renderItem={({item}) => <CardsBooks onPress={onClick} data={item}/>}
       />
     </ContainerSteamCleaning>
-  );
+    
+   );
+   console.log(dados) 
 }

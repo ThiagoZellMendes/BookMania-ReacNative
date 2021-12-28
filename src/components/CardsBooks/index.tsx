@@ -1,4 +1,5 @@
 import React from "react";
+import { ImageProps } from "react-native-elements";
 import {
   ContainerImgServices,
   ImgCardServices,
@@ -8,8 +9,8 @@ import {
   Star,
 } from "./styles";
 
-export interface CardProps {
-  book_image: number;
+export interface CardProps  extends ImageProps{
+  book_image?: string;
   title: string;
   author: string;
 }
@@ -19,7 +20,7 @@ interface PropsCards {
   onPress: () => void;
 }
 
-export function CardsBooks({ data, onPress }: PropsCards) {
+export function CardsBooks({ data, onPress, ...rest }: PropsCards) {
   return (
     <ContainerImgServices onPress={onPress}>
       <ImgCardServices source={{uri:data.book_image}} />

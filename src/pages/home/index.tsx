@@ -72,7 +72,7 @@ export function Home(props: Props) {
           <TitleBooks>Para você</TitleBooks>
         </ContainerTitleBooks>
         <ContainerListBooks>
-          <ListBooks data={"data1"} onClick={handleNavigationDetail} />
+          <ListBooks dados={'data1'} onClick={handleNavigationDetail} />
         </ContainerListBooks>
 
         <ContainerTitleBooks>
@@ -116,7 +116,7 @@ export function Home(props: Props) {
           <TitleBooks>Os mais lidos da semana</TitleBooks>
         </ContainerTitleBooks>
         <ContainerListBooks style={{ marginBottom: 40 }}>
-          <ListBooks data={"data2"} onClick={handleNavigationDetail} />
+          <ListBooks dados={'data2'} onClick={handleNavigationDetail} />
         </ContainerListBooks>
       </ScrollView>
     </Container>
