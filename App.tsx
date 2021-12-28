@@ -3,6 +3,7 @@ import { StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 import Router from './routes/router';
 import theme from './src/global/theme';
+import { BooksProvider } from './src/hooks/books'
 
 
 export default function App(){
@@ -10,6 +11,8 @@ export default function App(){
   return (
     <ThemeProvider theme={theme}>
       <StatusBar  backgroundColor="#FFFFFF" translucent={true} barStyle='dark-content' />
-      <Router />  
+      <BooksProvider>
+        <Router />
+      </BooksProvider>  
     </ThemeProvider>
   );}

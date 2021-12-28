@@ -4,6 +4,7 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   background-color: ${({theme}) => theme.colors.backgroundColor};
+  justify-content: space-between;
 `;
 
 export const HeaderBook = styled.View`
@@ -99,6 +100,6 @@ export const ContainerButton = styled.View`
 width:370px;
 height:40px;
 border-radius: 4px;
-margin-top: 70px;
 align-self: center;
+margin-bottom: 20px
 `;

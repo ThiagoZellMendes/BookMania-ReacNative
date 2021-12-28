@@ -1,5 +1,4 @@
 import React from "react";
-import { Text, ImageProps } from "react-native";
 import {
   ContainerImgServices,
   ImgCardServices,
@@ -9,9 +8,10 @@ import {
   Star,
 } from "./styles";
 
-export interface CardProps extends ImageProps {
+export interface CardProps {
   book_image: number;
-  list_name: string;
+  title: string;
+  author: string;
 }
 
 interface PropsCards {
@@ -22,9 +22,9 @@ interface PropsCards {
 export function CardsBooks({ data, onPress }: PropsCards) {
   return (
     <ContainerImgServices onPress={onPress}>
-      <ImgCardServices source={require("../../assets/01.png")} />
-      <NameBook>{`Rita Lee: Uma biografia`}</NameBook>
-      <Author>Sam Maggs</Author>
+      <ImgCardServices source={{uri:data.book_image}} />
+      <NameBook>{data.title}</NameBook>
+      <Author>{data.author}</Author>
       <ContainerStar>
         <Star source={require("../../assets/Star.png")}/>
         <Star source={require("../../assets/Star.png")}/>
