@@ -67,13 +67,12 @@ export const TitleBooks = styled.Text`
   font-weight: bold;
 `;
 
-export const ContainerViewCategorhys = styled.View`
+export const ContainerViewCategorhys = styled.TouchableOpacity`
   height: 90px;
   width: 74px;
   margin-left:16px;
   margin-top: 16px;
   margin-bottom: 8px;
-  
 `;
 
 export const ContainerListBooks = styled.View`

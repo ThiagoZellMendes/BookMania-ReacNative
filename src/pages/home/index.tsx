@@ -82,31 +82,31 @@ export function Home(props: Props) {
         <ScrollView horizontal={true}>
           <ContainerViewCategorhys>
             <View style={
-              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CBiografia, borderRadius:4}
+              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CBiografia, borderRadius:4, elevation:5}
               }/>
               <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Biografia</Text>
           </ContainerViewCategorhys>
           <ContainerViewCategorhys>
           <View style={
-              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CTecnologia, borderRadius:4}
+              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CTecnologia, borderRadius:4, elevation:5}
               }/>
               <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Tecnologia</Text>
           </ContainerViewCategorhys>
           <ContainerViewCategorhys>
           <View style={
-              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CFiccao, borderRadius:4}
+              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CFiccao, borderRadius:4, elevation:5}
               }/>
               <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Ficção</Text>
           </ContainerViewCategorhys>
           <ContainerViewCategorhys>
           <View style={
-              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CTPolitica, borderRadius:4}
+              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CTPolitica, borderRadius:4, elevation:5}
               }/>
               <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Política</Text>
           </ContainerViewCategorhys>
           <ContainerViewCategorhys>
           <View style={
-              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CAutoAjuda, borderRadius:4}
+              {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CAutoAjuda, borderRadius:4, elevation:5}
               }/>
           <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Auto Ajuda</Text>
           </ContainerViewCategorhys>

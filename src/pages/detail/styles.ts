@@ -24,24 +24,26 @@ export const ContainerImagemBook = styled.View`
   height: 253px;
   width: 164px;
   margin-right: 16px;
+  border: 2px solid;
+  elevation: 10;
 `;
 
 export const ImagemBook = styled.Image`
-  height: 253px;
-  width: 164px;
+  height: 250px;
+  width: 160px;
 `;
 
 export const Title = styled.Text`
   font-size:16px;
   font-weight:bold;
-  color: ${({theme}) => theme.colors.primaryText};
+  color: ${({theme}) => theme.colors.primary};
 `;
 
 export const Author = styled.Text`
   margin-bottom: 16px;
   margin-top: 8px;
   font-size: 14px;
-  color: ${({theme}) => theme.colors.CTPolitica};
+  color: ${({theme}) => theme.colors.secundary};
 `
 export const ContainerStar = styled.View`
   flex-direction: row;
@@ -81,7 +83,7 @@ export const TextCategory = styled.Text`
   margin-top:32px;
   `;
  export const TextAbout = styled.Text`
-  color: ${({theme}) => theme.colors.primaryText};
+  color: ${({theme}) => theme.colors.primary};
   font-size:18px;
   font-weight: bold;
 
@@ -92,7 +94,7 @@ export const TextCategory = styled.Text`
   margin-right: 16px;
   `;
  export const TextDescription = styled.Text`
-  color: ${({theme}) => theme.colors.primaryText};
+  color: ${({theme}) => theme.colors.primary};
   font-size:14px;
   `;
 

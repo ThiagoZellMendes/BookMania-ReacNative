@@ -7,6 +7,7 @@ export const Button = styled.TouchableOpacity`
   align-items: center;
   border-radius: 5px;
   background-color: ${({theme}) => theme.colors.CBiografia};
+  elevation: 5;
 `;
 
 export const TextButton = styled.Text`

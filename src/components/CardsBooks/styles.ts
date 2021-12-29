@@ -5,15 +5,17 @@ export const ContainerImgbooks = styled.TouchableOpacity.attrs({
 })`
   background-color: ${({theme})=> theme.colors.backgroundColor};
   height: 240px;
-  width: 120px;
+  width: 118.6px;
   margin-left: 12px;
   border-width: 0.7px;
-  border-radius: 5px;
-  
+  border-radius: 4px;
+  elevation: 5;
   `;
 export const ImgCardbooks = styled.Image`
   height: 160px;
   width: 117px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   `;
 
 export const ContainerNameBooks = styled.View`
