@@ -29,7 +29,7 @@ export const TextHeader = styled.Text`
   font-size: 24px;
 `;
 
-export const ContainerAvatarHeader =styled.View`
+export const ContainerAvatarHeader = styled.View`
   margin-right: 20px;
 `;
 
@@ -41,14 +41,17 @@ export const Avatar =styled.Image`
   margin-left: 24px;
 `;
 
+export const ContainerInput = styled.View`
+  width: 100%;
+  margin-left: 16px;
+  margin-right: 16px;
+`;
 export const ViewInput = styled.View`
 margin-top: 16px
 flex-direction: row;
 border-width: 2px;
 border-radius: 4px;
 border-color: ${({theme}) => theme.colors.primary};
-margin-left: 16px;
-margin-right: 16px;
 width:360px;
 height:56px;
 justify-content:space-between;

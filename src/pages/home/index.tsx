@@ -10,6 +10,7 @@ import {
   TextHeader,
   ContainerAvatarHeader,
   Avatar,
+  ContainerInput,
   ViewInput,
   ContainerListBooks,
   ContainerTitleBooks,
@@ -49,6 +50,7 @@ export function Home(props: Props) {
             />
           </ContainerAvatarHeader>
         </HeaderHome>
+        <ContainerInput>
         <ViewInput>
           <TextInput
             style={{ paddingLeft: 16, width: "90%", color: "black" }}
@@ -68,6 +70,7 @@ export function Home(props: Props) {
             />
 
         </ViewInput>
+        </ContainerInput>
         <ContainerTitleBooks>
           <TitleBooks>Para você</TitleBooks>
         </ContainerTitleBooks>
