@@ -34,7 +34,7 @@ export const ImagemBook = styled.Image`
 export const Title = styled.Text`
   font-size:16px;
   font-weight:bold;
-  color: ${({theme}) => theme.colors.primary};
+  color: ${({theme}) => theme.colors.primaryText};
 `;
 
 export const Author = styled.Text`
@@ -81,7 +81,7 @@ export const TextCategory = styled.Text`
   margin-top:32px;
   `;
  export const TextAbout = styled.Text`
-  color: ${({theme}) => theme.colors.primary};
+  color: ${({theme}) => theme.colors.primaryText};
   font-size:18px;
   font-weight: bold;
 
@@ -92,7 +92,7 @@ export const TextCategory = styled.Text`
   margin-right: 16px;
   `;
  export const TextDescription = styled.Text`
-  color: ${({theme}) => theme.colors.primary};
+  color: ${({theme}) => theme.colors.primaryText};
   font-size:14px;
   `;
 

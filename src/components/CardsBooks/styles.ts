@@ -1,43 +1,60 @@
 import styled from 'styled-components/native';
 
-export const ContainerImgServices = styled.TouchableOpacity.attrs({
+export const ContainerImgbooks = styled.TouchableOpacity.attrs({
   activeOpacity: 0.6
 })`
   background-color: ${({theme})=> theme.colors.backgroundColor};
-  height: 230px;
-  width: 104px;
-  align-items:center;
+  height: 240px;
+  width: 120px;
   margin-left: 12px;
+  border-width: 0.7px;
+  border-radius: 5px;
+  
+  `;
+export const ImgCardbooks = styled.Image`
+  height: 160px;
+  width: 117px;
+  `;
+
+export const ContainerNameBooks = styled.View`
+  width: 104px;
+  height: 32px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 4px;
+  margin-bottom: 2px;
 `;
 
 export const NameBook = styled.Text`
   font-size: 14px;
   color: ${({theme}) => theme.colors.primary};
-  width: 100%;
   font-weight: bold;
   `;
 
+export const ContainerAuthor = styled.View`
+  width: 104px;
+  height: 14px;
+  margin-left: 5px;
+  margin-right: 5px
+  margin-top: 2px;
+  margin-bottom: 5px;
+`;
+
 export const Author = styled.Text`
   font-size: 12px;
-  color: ${({theme}) => theme.colors.CTPolitica};
-  width: 100%;
+  color: ${({theme}) => theme.colors.secundary};
   `;
 
 export const ContainerStar = styled.View`
   flex-direction: row;
   height: 10px;
   width: 100px;
-  margin-top: 4px;
+  margin-left: 5px;
+  margin-right: 5px
+  margin-top: 3px
+  margin-bottom: 3px;
   `;
 export const Star = styled.Image`
   height: 10px;
   width: 10px;
   `;
-
-export const ImgCardServices = styled.Image`
-  height: 160px;
-  width: 104px;
-  border-radius: 4px;
-
-  
-`;

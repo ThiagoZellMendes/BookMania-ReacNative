@@ -39,7 +39,7 @@ export function Home(props: Props) {
       <ScrollView showsVerticalScrollIndicator={false}>
         <HeaderHome>
           <ContainerTextHeader>
-            <TextHeader>Bookshelf</TextHeader>
+            <TextHeader>BooksMania</TextHeader>
           </ContainerTextHeader>
           <ContainerAvatarHeader>
             <Avatar
@@ -53,7 +53,7 @@ export function Home(props: Props) {
           <TextInput
             style={{ paddingLeft: 16, width: "90%", color: "black" }}
             placeholder="Qual livro você gostaria de ler hoje?"
-            placeholderTextColor={"#9AA4AC"}
+            placeholderTextColor={theme.colors.secundary}
             keyboardType={"email-address"}
             value={search}
             autoCorrect={false}
@@ -62,7 +62,7 @@ export function Home(props: Props) {
          
             <Ionicons
               name="search"
-              color="#9AA4AC"
+              color={theme.colors.secundary}
               size={17}
               style={{ marginRight: 19 }}
             />
@@ -84,31 +84,31 @@ export function Home(props: Props) {
             <View style={
               {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CBiografia, borderRadius:4}
               }/>
-              <Text style={{fontSize:14, fontWeight:'bold'}}>Biografia</Text>
+              <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Biografia</Text>
           </ContainerViewCategorhys>
           <ContainerViewCategorhys>
           <View style={
               {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CTecnologia, borderRadius:4}
               }/>
-              <Text style={{fontSize:14, fontWeight:'bold'}}>Tecnologia</Text>
+              <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Tecnologia</Text>
           </ContainerViewCategorhys>
           <ContainerViewCategorhys>
           <View style={
               {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CFiccao, borderRadius:4}
               }/>
-              <Text style={{fontSize:14, fontWeight:'bold'}}>Ficção</Text>
+              <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Ficção</Text>
           </ContainerViewCategorhys>
           <ContainerViewCategorhys>
           <View style={
               {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CTPolitica, borderRadius:4}
               }/>
-              <Text style={{fontSize:14, fontWeight:'bold'}}>Política</Text>
+              <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Política</Text>
           </ContainerViewCategorhys>
           <ContainerViewCategorhys>
           <View style={
               {marginRight: 12, height: 74, width:74,backgroundColor:theme.colors.CAutoAjuda, borderRadius:4}
               }/>
-          <Text style={{fontSize:14, fontWeight:'bold'}}>Auto Ajuda</Text>
+          <Text style={{fontSize:14, fontWeight:'bold', color:theme.colors.secundary}}>Auto Ajuda</Text>
           </ContainerViewCategorhys>
         </ScrollView>
 

@@ -44,8 +44,6 @@ function BooksProvider({ children }: BooksPrividerProps) {
     TestBooks();
   }, []);
 
-   console.log(bookList2)
-
   return( 
   <BooksContext.Provider value={[bookList1, bookList2]}>
     {children}

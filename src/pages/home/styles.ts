@@ -46,7 +46,7 @@ margin-top: 16px
 flex-direction: row;
 border-width: 2px;
 border-radius: 4px;
-border-color: #F2F2F2;
+border-color: ${({theme}) => theme.colors.primary};
 margin-left: 16px;
 margin-right: 16px;
 width:360px;

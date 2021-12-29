@@ -2,9 +2,10 @@ export default {
   colors: {
     backgroundColor:'#FFFFFF',
   
-    primary:'#333333',
-
     gray3: '#828282',
+
+    primary: '#0047ab',
+    secundary:'#4682b4',
 
     CBiografia: '#F2994A',
     CTecnologia: '#219653',
