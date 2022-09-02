@@ -1,5 +1,5 @@
 <h4 align="center"> 
-	🚧 " Desafio Ubelix(BookMania)" 🚀 em construção... 🚧
+	🚧 "BookMania" 🚀 em construção... 🚧
 </h4>
 
 <p align="center">
