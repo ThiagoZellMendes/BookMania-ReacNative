@@ -22,7 +22,7 @@
 
 :book: BooksMania Foi um desafio proposto pela Ubelix desenvolvido em ReactNative, usando tecnologias como Expo, ContextApi, StyledComponents e etc...
 
-A proposta do desafio era desenvolver desenvolver um pequeno App de leitura de livros, onde o usuário escolheria em uma lista de livros um livro para ler, 
+A proposta do desafio era desenvolver um pequeno App de leitura de livros, onde o usuário escolheria em uma lista de livros um livro para ler, 
 todas as informações dos livro foram retiradas apartir da API https://api.nytimes.com.
 
 
