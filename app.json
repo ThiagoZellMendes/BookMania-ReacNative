@@ -1,4 +1,18 @@
 {
+  "expo": {
+    "name": "BookMania",
+    "slug": "bookMania",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-font"
+    ]
+  },
   "name": "BookMania",
-  "displayName": "BookMania"
+  "displayName": "BookMania",
+  "plugins": [
+    "expo-font"
+  ]
 }
