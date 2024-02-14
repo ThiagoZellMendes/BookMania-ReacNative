@@ -1,79 +1,103 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<h4 align="center"> 
+	🚧 "BookMania" 🚀 em construção... 🚧
+</h4>
 
-# Getting Started
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ThiagoZellMendes/Ubelix?color=%2304D361">
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ThiagoZellMendes/Ubelix">
 
-## Step 1: Start the Metro Server
+  <a href="https://github.com/ThiagoZellMendes/Ubelix/commits/AppFacul">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ThiagoZellMendes/Ubelix">
+  </a>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/ThiagoZellMendes/Ubelix/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/ThiagoZellMendes/Ubelix?style=social">
+  </a>
+</p>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+
+## 💻 Sobre o projeto
+
+:book: BooksMania Foi um desafio proposto pela Ubelix desenvolvido em ReactNative, usando tecnologias como Expo, ContextApi, StyledComponents e etc...
+
+A proposta do desafio era desenvolver um pequeno App de leitura de livros, onde o usuário escolheria em uma lista de livros um livro para ler, 
+todas as informações dos livro foram retiradas apartir da API https://api.nytimes.com.
+
+
+## 🎨 Layout
+
+ ![](https://github.com/ThiagoZellMendes/Ubelix/blob/master/src/assets/video.gif?raw=true)
+
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Expo][expo]
+- [Node.js][nodejs]
+- [React Native][rn]
+- [JavaScript][javascript]
+- [TypeScript][typescript]
+
+
+## 🚀 Como executar o projeto
+
+O projeto foi criando em Expo ou seja precisaremos do mesmo instalado:
+
+
+💡é Preciso um emulador para executar o app, no meu caso usei "AndroidStudio", mas pode ser usando outros meios:
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js][nodejs]. 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+
+### 🎲 Rodando o App:
 
 ```bash
-# using npm
-npm start
+# Clone este repositório
+$ git clone https://github.com/ThiagoZellMendes/Ubelix
 
-# OR using Yarn
-yarn start
-```
+# Acesse a pasta do projeto no terminal/cmd
+$ cd Ubelix
 
-## Step 2: Start your Application
+# Instale as dependências
+$ npm install
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+# Execute a aplicação:
+$ npm start
 
-### For Android
+# Aplicativo foi otimizado para Android:
+$ Escolha "a" para abrir ele para Android
+``` 
 
-```bash
-# using npm
-npm run android
 
-# OR using Yarn
-yarn android
-```
+## 😯 Como contribuir para o projeto
 
-### For iOS
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions)
 
-```bash
-# using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
+## 📝 Licença
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Este projeto esta sobe a licença MIT.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Feito com Muito Carinho por Thiago Mendes 👋🏽 [Entre em contato!](https://www.linkedin.com/in/thiago-mendes-44176249/)
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+[nodejs]: https://nodejs.org/
+[expo]: https://expo.io/
+[rn]: https://facebook.github.io/react-native/
+[yarn]: https://yarnpkg.com/
+[vscode]: https://code.visualstudio.com/
+[JavaScript]:https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+[license]: https://opensource.org/licenses/MIT
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[rn]: https://facebook.github.io/react-native/
+[TypeScript]: https://www.typescriptlang.org/pt/
