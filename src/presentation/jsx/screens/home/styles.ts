@@ -75,6 +75,6 @@ export const ContainerViewCategorhys = styled.TouchableOpacity`
   margin-bottom: 8px;
 `;
 
-export const ContainerListBooks = styled.View`
+export const ContainerListBooks = styled.FlatList`
   margin-top: 16px;
 `;

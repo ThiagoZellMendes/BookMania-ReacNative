@@ -1,8 +1,8 @@
-import { Home } from '@/presentation/screens';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
+import { ManufactureHomeScreen } from '@/main/screens/Home';
 import React from 'react';
 // import { Detail } from '../src/pages/detail';
 // import { Biography } from '../src/pages/biography';
@@ -45,10 +45,10 @@ const Tab = createBottomTabNavigator();
 function Router() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
+      <Stack.Navigator initialRouteName="Main">
         <Stack.Screen
           name="Main"
-          component={Home}
+          component={ManufactureHomeScreen}
           options={{ headerShown: false }}
         />
 
