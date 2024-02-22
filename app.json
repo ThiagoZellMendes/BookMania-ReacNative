@@ -1,11 +1,18 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "BookMania",
+    "slug": "bookMania",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "plugins": [
+      "expo-font"
     ]
   },
-  "name": "my-app"
+  "name": "BookMania",
+  "displayName": "BookMania",
+  "plugins": [
+    "expo-font"
+  ]
 }

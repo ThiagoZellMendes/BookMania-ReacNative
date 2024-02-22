@@ -1,6 +1,7 @@
 {
-  "name": "uberlix",
-  "version": "1.0.0",
+  "name": "BookMania",
+  "version": "0.0.1",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "expo start --dev-client",
@@ -9,31 +10,74 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@react-navigation/bottom-tabs": "^6.0.9",
-    "@react-navigation/native": "^6.0.6",
-    "@react-navigation/native-stack": "^6.2.5",
-    "@types/react-native-vector-icons": "^6.4.10",
-    "@types/styled-components-react-native": "^5.1.3",
-    "axios": "^0.24.0",
-    "expo": "~44.0.1",
-    "expo-splash-screen": "~0.14.1",
-    "expo-status-bar": "~1.2.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-native": "0.64.3",
-    "react-native-elements": "^3.4.2",
-    "react-native-safe-area-context": "3.3.2",
-    "react-native-screens": "~3.10.1",
-    "react-native-vector-icons": "^9.0.0",
-    "react-native-web": "0.17.1",
-    "styled-components": "^5.3.3"
+    "@expo-google-fonts/inter": "^0.2.2",
+    "@expo-google-fonts/roboto": "^0.2.2",
+    "@expo/vector-icons": "~13.0.0",
+    "@react-navigation/bottom-tabs": "^6.5.12",
+    "@react-navigation/native": "^6.1.10",
+    "@react-navigation/native-stack": "^6.9.18",
+    "@reduxjs/toolkit": "^2.1.0",
+    "@testing-library/jest-native": "^5.4.3",
+    "axios": "~0.26.1",
+    "expo": "^50.0.0",
+    "expo-constants": "~15.4.5",
+    "expo-font": "^11.10.2",
+    "expo-modules-core": "^1.11.8",
+    "react": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-config": "~1.4.5",
+    "react-native-dotenv": "~3.3.1",
+    "react-native-gesture-handler": "2.15.0",
+    "react-native-iphone-x-helper": "^1.3.1",
+    "react-native-responsive-fontsize": "^0.5.1",
+    "react-native-safe-area-context": "4.9.0",
+    "react-native-screens": "^3.29.0",
+    "react-native-splash-screen": "^3.3.0",
+    "redux": "^5.0.1",
+    "styled-components": "~5.3.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@types/react": "~17.0.21",
-    "@types/react-native": "~0.64.12",
-    "@types/styled-components": "^5.1.19",
-    "typescript": "~4.3.5"
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@faker-js/faker": "^8.4.1",
+    "@react-native/babel-preset": "0.73.21",
+    "@react-native/eslint-config": "0.73.2",
+    "@react-native/metro-config": "0.73.5",
+    "@react-native/typescript-config": "0.74.0",
+    "@testing-library/react-native": "^12.4.3",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.6",
+    "@types/react-native-dotenv": "^0.2.2",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "@types/react-test-renderer": "^18.0.0",
+    "@types/styled-components": "^5.1.34",
+    "@types/styled-components-react-native": "^5.2.5",
+    "babel-jest": "^29.6.3",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "babel-plugin-optional-require": "0.3.1",
+    "babel-preset-expo": "~10.0.1",
+    "eslint": "^8.19.0",
+    "expo-cli": "^6.3.10",
+    "jest": "^29.6.3",
+    "jest-expo": "^50.0.2",
+    "jest-styled-components": "^7.2.0",
+    "jest-transform-stub": "^2.0.0",
+    "prettier": "3.2.5",
+    "react-test-renderer": "18.2.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "5.3.3"
   },
-  "private": true
+  "engines": {
+    "node": ">=18"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg)"
+    ]
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
 }
