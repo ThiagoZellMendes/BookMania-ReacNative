@@ -1,13 +1,17 @@
-import { HttpClient, HttpRequest, HttpResponse } from "@/data";
-import axios, { AxiosResponse } from "axios";
+import { HttpClient, HttpRequest, HttpResponse } from '@/data';
+import axios, { AxiosResponse } from 'axios';
 
-import Config from "react-native-config";
+import Config from 'react-native-config';
 
 export class AxiosHttpClient implements HttpClient {
   async request(data: HttpRequest): Promise<HttpResponse<any>> {
     let axiosResponse: AxiosResponse;
 
-    axios.defaults.headers.common["books-api-key"] = Config.API_KEY;
+    if (Config.API_KEY) {
+      axios.defaults.headers.common['books-api-key'] = Config.API_KEY;
+    } else {
+      throw new Error('API_KEY não está definida no arquivo de configuração');
+    }
 
     try {
       axiosResponse = await axios.request({

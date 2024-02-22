@@ -5,6 +5,6 @@ import { manufactureHttpClient } from "@/main/factories/http/http-client-factory
 export const manufactureGetRemoteDescriptionBooks =
   (): RemoteBookDescription =>
     new RemoteBookDescription(
-      manufactureApiUrl("/list/books"),
+      manufactureApiUrl("/"),
       manufactureHttpClient()
     );

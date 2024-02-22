@@ -3,4 +3,4 @@ import { manufactureApiUrl } from '@/main/factories/api/api-url-factory';
 import { manufactureHttpClient } from '@/main/factories/http/http-client-factory';
 
 export const manufactureGetRemoteBooks = (): RemoteBooks =>
-  new RemoteBooks(manufactureApiUrl('/list/books'), manufactureHttpClient());
+  new RemoteBooks(manufactureApiUrl('/full-overview.json'), manufactureHttpClient());
