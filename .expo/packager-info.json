@@ -1,4 +1,4 @@
 {
-  "expoServerPort": 19000,
-  "packagerPort": 19000
+  "expoServerPort": 8081,
+  "packagerPort": 8081
 }
